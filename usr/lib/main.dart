@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: const Color(0xFF0a0a0a),
-        backgroundColor: const Color(0xFF1a1a1a),
+        cardColor: const Color(0xFF1a1a1a),
         textTheme: GoogleFonts.poppinsTextTheme(
           Theme.of(context).textTheme.apply(
                 bodyColor: Colors.white,
